@@ -1,0 +1,262 @@
+
+.main {
+	background-image:url(../images/keyWords_bg.jpg);
+}
+
+.book {
+	/* 实际尺寸：1016*661 */
+	width:916px;
+	height:568px;
+	padding-left:50px;
+	padding-top:20px;
+	padding-right:50px;
+	padding-bottom:73px;
+	background:url(../images/keyWords_book_bg.png) no-repeat;
+	position:absolute;
+	left:50%;
+	top:125px;
+	margin-left:-508px;
+}
+
+#page1,
+#page2 {
+	float:left;
+}
+.sheet-left,
+.sheet-right {
+	width:458px;
+	height:568px;
+	float:left;
+	position:relative;
+}
+
+/* 切换键 */
+#btn_right,
+#btn_left {
+	width:146px;
+	height:239px;
+	position:absolute;
+	bottom:0;
+	cursor:pointer;
+}
+
+#btn_right {
+	background:url(../images/keyWords_btn_right.png) no-repeat;
+	right:0;
+}
+#btn_left {
+	background:url(../images/keyWords_btn_left.png) no-repeat;
+	left:0;
+}
+
+.item {
+	margin-left:12px;
+	width:437px;
+}
+/* 图片 */
+.item-img {
+	width:294px;
+	height:100%;
+	position:relative;
+	float:left;
+}
+/* 文本 */
+.item-textContainer {
+	float:left;
+	width:142px;
+	height:100%;
+	background:#fff;
+	color:#999;
+	line-height:24px;
+}
+.item-title {
+	font-size:30px;
+	font-family:"微软雅黑";
+}
+.item-content {
+	font-size:14px;
+	font-family:"宋体";
+}
+/* 箭头 */
+.item-img .item-arrows  {
+	position:absolute;
+	width:20px;
+	height:38px;
+}
+
+/* 第一页 */
+/* 左侧 */
+/* 关于空谷 */
+.aboutKonggu {
+	margin-left:44px;
+	margin-right:57px;
+	margin-top:46px;
+	color:#424040;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:24px;
+}
+	/* 最后一行 */
+.aboutKonggu > div{
+	text-align:right;
+}
+
+.left-middle {
+	margin-top:3px;
+	height:123px;
+	color:#666;
+	font-size:24px;
+	font-family:"微软雅黑";
+	line-height:123px;
+	padding-left:93px;
+	background:url(../images/keyWords_page1_left-middle_bg.png) no-repeat;
+}
+.left-bottom {
+	margin-top:38px;
+}
+.left-bottom > .rect{
+	width:257px;
+	height:53px;
+	background:#fff;
+	float:left;
+}
+.left-bottom > .halfCircle{
+	width:24px;
+	height:53px;
+	float:left;
+	background:url(../images/keyWords_page1_left-bottom-halfCircle_bg.png) no-repeat;
+}
+/* 右侧 */
+/* 努力 */
+.nuli {
+	height:229px;
+	margin-top:31px;
+}
+.nuli .item-img {
+	background:url(../images/keyWords_page1_nuli_img.png) no-repeat;
+}
+.nuli .item-arrows {
+	background:url(../images/keyWords_item_arrows_left.png) no-repeat;
+	top:88px;
+	right:-2px;
+}
+.nuli .item-title {
+	padding-left:13px;
+	margin-top:27px;
+}
+.nuli .item-content {
+	margin-top:20px;
+	padding-left:14px;
+}
+/* 奔跑 */
+.running {
+	height:247px;
+	margin-top:21px;
+}
+.running .item-img {
+	background:url(../images/keyWords_page1_running_img.png) no-repeat;
+}
+.running .item-arrows {
+	background:url(../images/keyWords_item_arrows_right.png) no-repeat;
+	top:155px;
+	left:-2px;
+}
+.running .item-title {
+	text-align:right;
+	padding-right:13px;
+	margin-top:42px;
+}
+.running .item-content {
+	margin-top:41px;
+	padding-left:10px;
+}
+
+/* 第二页 */
+/* 左侧 */
+/* 青春 */
+.youth {
+	height:229px;
+	margin-top:31px;
+}
+.youth .item-img {
+	background:url(../images/keyWords_page2_youth_img.png) no-repeat;
+}
+.youth .item-arrows {
+	background:url(../images/keyWords_item_arrows_right.png) no-repeat;
+	top:138px;
+	left:-2px;
+}
+.youth .item-title {
+	text-align:right;
+	padding-right:21px;
+	margin-top:32px;
+}
+.youth .item-content {
+	margin-top:33px;
+	padding-left:25px;
+}
+/* 成长 */
+.growth {
+	height:247px;
+	margin-top:21px;
+}
+.growth .item-img {
+	background:url(../images/keyWords_page2_growth_img.png) no-repeat;
+}
+.growth .item-arrows {
+	background:url(../images/keyWords_item_arrows_left.png) no-repeat;
+	top:161px;
+	right:-2px;
+}
+.growth .item-title {
+	padding-left:19px;
+	margin-top:49px;
+}
+.growth .item-content {
+	margin-top:35px;
+	padding-left:14px;
+}
+/* 右侧 */
+/* 时光 */
+.time {
+	height:229px;
+	margin-top:31px;
+}
+.time .item-img {
+	background:url(../images/keyWords_page2_time_img.png) no-repeat;
+}
+.time .item-arrows {
+	background:url(../images/keyWords_item_arrows_left.png) no-repeat;
+	top:44px;
+	right:-2px;
+}
+.time .item-title {
+	padding-left:13px;
+	margin-top:27px;
+}
+.time .item-content {
+	margin-top:20px;
+	padding-left:14px;
+}
+/* 方向 */
+.direction {
+	height:247px;
+	margin-top:21px;
+}
+.direction .item-img {
+	background:url(../images/keyWords_page2_direction_img.png) no-repeat;
+}
+.direction .item-arrows {
+	background:url(../images/keyWords_item_arrows_right.png) no-repeat;
+	top:48px;
+	left:-2px;
+}
+.direction .item-title {
+	text-align:right;
+	padding-right:20px;
+	margin-top:49px;
+}
+.direction .item-content {
+	margin-top:35px;
+	padding-left:30px;
+}

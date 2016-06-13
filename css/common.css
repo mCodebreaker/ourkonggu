@@ -1,0 +1,96 @@
+body {margin:0;padding:0;}
+
+a {text-decoration:none;}
+
+.wrap {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.main {
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	height:970px;
+}
+
+/* 导航 */
+.nav {
+	width:1173px;
+	position:absolute;
+	top:805px;
+	left:50%;
+	margin-left:-586px;
+}
+
+.nav-line {
+	float:left;
+	margin-top:55px;
+	width:242px;
+	height:9px;
+	background-color:#fff;
+}
+.nav-anchor {
+	float:left;
+	width:119px;
+	height:119px;
+	background:url(../images/nav-circle.png) no-repeat;
+	font-family:"微软雅黑";
+	text-align:center;
+	text-shadow: -1px -1px 2px #c2c0c3, 1px 1px 2px #c2c0c3;
+	margin:0 25px;
+}
+
+.nav-anchor a{
+	color:#fff;
+	display:block;
+	width:100%;
+}
+.nav-anchor.active a,
+.nav-anchor a:hover{
+	color:#666;
+	text-shadow: 0 0 0 #666;
+	background:url(../images/nav-circle_active.png) no-repeat;
+}
+
+.nav-anchor-line1 a{
+	padding-top:47px;
+	height:72px;
+	font-size:21px;
+}
+
+.nav-anchor-line2 a{
+	padding-top:39px;
+	height:80px;
+	font-size:17px;
+}
+.nav-line-left {}
+
+/* 底部 */
+.footer {
+	height:110px;
+	background-color:#fbfcfc;
+}
+/* 兼容缩小页面产生的换行问题 */
+.footer-content {
+	position: absolute;
+	left: 50%;
+	margin-left: -586px;
+}
+.logo {
+	float:left;
+	margin-top:19px;
+	margin-left:185px;
+	background:url(../images/logo.png) no-repeat;
+	width: 172px;
+	height: 69px;
+}
+.copyright {
+	float:left;
+	margin-left:12px;
+	margin-top:25px;
+	font-family: "宋体";
+	font-size:12px;
+	color:#3e3e3e;
+	line-height: 20px;
+}

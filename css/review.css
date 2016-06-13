@@ -1,0 +1,475 @@
+.main {
+    background-image:url(../images/review_bg.jpg);
+}
+.container {
+	position:absolute;
+	width:1920px;
+	left:50%;
+	margin-left:-960px;
+}
+/* 切换键 */
+#btn_right,
+#btn_left {
+	position:absolute;
+	top:670px;
+	width:70px;
+	height:73px;
+	cursor:pointer;
+	background-repeat:no-repeat;
+}
+#btn_left {
+	left:1279px;
+    background-image:url(../images/review_btn_left.png);
+}
+#btn_right {
+	left:1353px;
+    background-image:url(../images/review_btn_right.png);
+}
+.arrows {
+	height:73px;
+	background-repeat:no-repeat;
+}
+#btn_left:hover .arrows {
+    background-image:url(../images/review_btn_left_hover.png);
+}
+#btn_right:hover .arrows {
+	left:1353px;
+    background-image:url(../images/review_btn_right_hover.png);
+}
+
+/* 连接线 */
+.lines {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+#page1 .lines {
+	width:678px;
+	height:486px;
+	left:624px;
+	top:151px;
+	background-image:url(../images/review_page1_lines.png);
+}
+#page2 .lines {
+	width:686px;
+	height:463px;
+	left:591px;
+	top:134px;
+	background-image:url(../images/review_page2_lines.png);
+}
+
+/* 大多边形 */
+.polygon {
+	z-index:2;
+}
+/* 附属多边形 */
+.side {
+	z-index:1;
+}
+.polygon,
+.side {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+.polygon .title {
+	position:absolute;
+	line-height:1;
+	font-family:"微软雅黑";
+	font-size:30px;
+	color:#fff;
+}
+/* 详细内容 */
+.polygon .content {
+	position:absolute;
+	font-family:"宋体";
+	font-size:14px;
+	line-height:24px;
+	color:#fff;
+}
+.side .content {
+	position:absolute;
+	font-family:"微软雅黑";
+}
+/* 为兼容IE阻止脚本运行 */
+.content {
+	display:none;
+}
+
+.white .title,
+.white .content {
+	color:#4f4b66;
+}
+/* 第一页 */
+.Y2000 {
+	left:471px;
+	top:18px;
+	width:182px;
+	height:191px;
+	background-image:url(../images/review_polygon_2000.png);
+	
+}
+.Y2000 .title {
+	font-size:36px;
+	left:50px;
+	top:79px;
+}
+.Y2000 .content {
+	font-size:33px;
+	left:30px;
+	top:85px;
+}
+.Y2000_side {
+	width:90px;
+	height:90px;
+	left:620px;
+	top:113px;
+	background-image:url(../images/review_polygon_2000_side.png);
+}
+.Y2000_side .content {
+	font-size:14px;
+	color:#4f4b66;
+	left:38px;
+	top:25px;
+}
+.Y2001 {
+	left:745px;
+	top:114px;
+	width:184px;
+	height:178px;
+	background-image:url(../images/review_polygon_2001.png);
+	
+}
+.Y2001 .title {
+	left:52px;
+	top:85px;
+}
+.Y2001 .content {
+	left:42px;
+	top:30px;
+}
+.Y2002 {
+	left:970px;
+	top:131px;
+	width:132px;
+	height:134px;
+	background-image:url(../images/review_polygon_2002.png);
+	
+}
+.Y2002 .title {
+	font-size:24px;
+	left:30px;
+	top:60px;
+}
+.Y2002 .content {
+	font-size:18px;
+	line-height:32px;
+	left:22px;
+	top:40px;
+}
+.Y2003 {
+	left:1203px;
+	top:242px;
+	width:155px;
+	height:162px;
+	background-image:url(../images/review_polygon_2003.png);
+	
+}
+.Y2003 .title {
+	left:33px;
+	top:71px;
+}
+.Y2003 .content {
+	left:35px;
+	top:33px;
+}
+.Y2004_09 {
+	left:1003px;
+	top:369px;
+	width:138px;
+	height:138px;
+	background-image:url(../images/review_polygon_2004_09.png);
+	
+}
+.Y2004_09 .title {
+	left:17px;
+	top:50px;
+}
+.Y2004_09 .content {
+	left:27px;
+	top:25px;
+}
+.Y2004_11 {
+	left:856px;
+	top:330px;
+	width:158px;
+	height:159px;
+	background-image:url(../images/review_polygon_2004_11.png);
+	
+}
+.Y2004_11 .title {
+	left:22px;
+	top:68px;
+}
+.Y2004_11 .content {
+	font-size:14px;
+	line-height:25px;
+	left:39px;
+	top:25px;
+	transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);		/* IE 9 */
+	-webkit-transform: rotate(-12deg);	/* Safari and Chrome */
+	-o-transform: rotate(-12deg);		/* Opera */
+	-moz-transform: rotate(-12deg);		/* Firefox */
+}
+.Y2005 {
+	left:477px;
+	top:288px;
+	width:274px;
+	height:282px;
+	background-image:url(../images/review_polygon_2005-6.png);
+	
+}
+.Y2005 .title {
+	position:absolute;
+	line-height:1;
+}
+.Y2005 .Y5 {
+	left:52px;
+	top:97px;
+}
+.Y2005 .Y6 {
+	left:105px;
+	top:172px;
+}
+.Y2005 .content {
+	left:44px;
+	top:37px;
+}
+.Y2005 .content font {
+	font-size:18px;
+	font-family:"微软雅黑";
+}
+.empty {
+	width:63px;
+	height:63px;
+	left:1078px;
+	top:276px;
+	background-image:url(../images/review_polygon_empty.png);
+}
+.Y2007 {
+	left:753px;
+	top:452px;
+	width:125px;
+	height:121px;
+	background-image:url(../images/review_polygon_2007.png);
+}
+.Y2007 .title {
+	left:28px;
+	top:57px;
+}
+.Y2007 .content {
+	font-size:12px;
+	line-height:18px;
+	left:34px;
+	top:31px;
+}
+.Y2007_side {
+	left:718px;
+	top:458px;
+	width:68px;
+	height:70px;
+	background-image:url(../images/review_polygon_2007_side.png);
+}
+.Y2007_side .content {
+	font-size:14px;
+	line-height:24px;
+	color:#4f4b66;
+	left:12px;
+	top:9px;
+}
+.Y2008 {
+	left:1046px;
+	top:493px;
+	width:216px;
+	height:222px;
+	background-image:url(../images/review_polygon_2008.png);
+	
+}
+.Y2008 .title {
+	font-size:36px;
+	left:69px;
+	top:98px;
+}
+.Y2008 .content {
+	left:29px;
+	top:35px;
+}
+.Y2008_side {
+	left:1208px;
+	top:501px;
+	width:94px;
+	height:97px;
+	background-image:url(../images/review_polygon_2008_side.png);
+}
+.Y2008_side .content {
+	font-size:18px;
+	line-height:24px;
+	color:#4f4b66;
+	left:31px;
+	top:15px;
+}
+
+/* 第二页 */
+.Y2009 {
+	left:1208px;
+	top:45px;
+	width:212px;
+	height:220px;
+	background-image:url(../images/review_polygon_2009.png);
+	
+}
+.Y2009 .title {
+	font-size:36px;
+	left:68px;
+	top:93px;
+}
+.Y2009 .content {
+	left:28px;
+	top:32px;
+}
+.Y2010 {
+	left:985px;
+	top:177px;
+	width:219px;
+	height:222px;
+	background-image:url(../images/review_polygon_2010.png);
+	
+}
+.Y2010 .title {
+	font-size:36px;
+	left:55px;
+	top:93px;
+}
+.Y2010 .content {
+	left:25px;
+	top:32px;
+}
+.Y2011 {
+	left:810px;
+	top:157px;
+	width:180px;
+	height:183px;
+	background-image:url(../images/review_polygon_2011.png);
+	
+}
+.Y2011 .title {
+	left:58px;
+	top:84px;
+}
+.Y2011 .content {
+	font-size:14px;
+	line-height:24px;
+	left:32px;
+	top:38px;
+}
+.Y2012 {
+	left:489px;
+	top:150px;
+	width:240px;
+	height:244px;
+	background-image:url(../images/review_polygon_2012.png);
+	
+}
+.Y2012 .title {
+	font-size:36px;
+	left:61px;
+	top:106px;
+}
+.Y2012 .content {
+	left:17px;
+	top:30px;
+}
+.Y2012_side {
+	left:473px;
+	top:75px;
+	width:112px;
+	height:114px;
+	background-image:url(../images/review_polygon_2012_side.png);
+}
+.Y2012_side .content {
+	font-size:18px;
+	color:#4f4b66;
+	left:26px;
+	top:45px;
+	transform: rotate(-24deg);
+	-ms-transform: rotate(-24deg);		/* IE 9 */
+	-webkit-transform: rotate(-24deg);	/* Safari and Chrome */
+	-o-transform: rotate(-24deg);		/* Opera */
+	-moz-transform: rotate(-24deg);		/* Firefox */
+}
+.Y2013 {
+	left:694px;
+	top:399px;
+	width:154px;
+	height:160px;
+	background-image:url(../images/review_polygon_2013.png);
+	
+}
+.Y2013 .title {
+	font-size:36px;
+	left:29px;
+	top:67px;
+}
+.Y2013 .content {
+	left:8px;
+	top:26px;
+}
+.Y2013_side {
+	left:814px;
+	top:380px;
+	width:82px;
+	height:86px;
+	background-image:url(../images/review_polygon_2013_side.png);
+}
+.Y2013_side .content {
+	font-size:18px;
+	line-height:1;
+	color:#fff;
+	left:21px;
+	top:36px;
+}
+.Y2014 {
+	left:1163px;
+	top:411px;
+	width:192px;
+	height:185px;
+	background-image:url(../images/review_polygon_2014.png);
+	
+}
+.Y2014 .title {
+	font-size:36px;
+	left:53px;
+	top:69px;
+}
+.Y2014 .content {
+	left:17px;
+	top:14px;
+}
+.Y2015 {
+	left:857px;
+	top:523px;
+	width:203px;
+	height:194px;
+	background-image:url(../images/review_polygon_2015.png);
+	
+}
+.Y2015 .title {
+	font-size:36px;
+	left:58px;
+	top:93px;
+}
+.Y2015 .content {
+	font-size:24px;
+	line-height:36px;
+	left:39px;
+	top:75px;
+}

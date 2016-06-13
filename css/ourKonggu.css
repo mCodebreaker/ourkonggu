@@ -1,0 +1,189 @@
+.main {
+	background-image:url(../images/ourKonggu_bg.jpg);
+}
+.header {
+	position:absolute;
+	width:664px;
+	height:147px;
+	top:43px;
+	left:50%;
+	margin-left:-332px;
+	background:url(../images/ourKonggu_header.png) no-repeat;
+}
+.page {
+	position:absolute;
+	width:992px;
+	height:593px;
+	top:240px;
+	left:50%;
+	margin-left:-496px;
+}
+/* 切换键 */
+.btn_container {	
+	float:left;
+	width:57px;
+	height: 100%;
+}
+#btn_left,
+#btn_right {
+	height:115px;
+	margin-top: 210px;
+	cursor:pointer;
+	background-repeat:no-repeat;
+}
+#btn_left {
+	background-image:url(../images/ourKonggu_btn_left_normal.png);
+}
+#btn_left:hover {
+	background-image:url(../images/ourKonggu_btn_left_hover.png);
+}
+#btn_right {
+	background-image:url(../images/ourKonggu_btn_right_normal.png);
+}
+#btn_right:hover {
+	background-image:url(../images/ourKonggu_btn_right_hover.png);
+}
+.item {
+	float:left;
+	display:block;
+	position:relative;
+	background:url(../images/ourKonggu_item_border.png) no-repeat;
+	width:133px;
+	height:513px;
+	margin: 0 21px;
+}
+.item-title {
+	z-index: 1;
+	position:absolute;
+	left:0;
+	right:0;
+	height: 100px;
+	background:url(../images/ourKonggu_item_circle.png) no-repeat center center;
+	line-height: 100px;
+	font-family:"微软雅黑";
+	text-align:center;
+	font-size:24px;
+}
+.item-content {
+	position:absolute;
+	left:4px;
+	top:4px;
+	right:4px;
+	bottom:4px;
+	padding:0 50px;
+	font-size:24px;
+	line-height: 24px;
+	font-family:"微软雅黑";
+	text-align:center;
+	background-repeat:no-repeat;
+}
+/* 垂直间距 */
+.space {
+	height:10px;
+}
+.space3 {
+	height:30px;
+}
+/* 第一页 */
+/* 首页 */
+.item-index .item-title {
+	color:#39c;
+	top: -45px
+}
+.item-index .item-content {
+	color:#fff;
+	background-image:url(../images/ourKonggu_page1_index_bg.png);
+	padding-top:67px;
+}
+/* 新闻网 */
+.item-news .item-title {
+	color:#666;
+	bottom: -45px
+}
+.item-news .item-content {
+	color:#666;
+	background-image:url(../images/ourKonggu_page1_news_bg.png);
+	padding-top:124px;
+}
+/* 生活网 */
+.item-life .item-title {
+	color:#C99;
+	top: -45px
+}
+.item-life .item-content {
+	color:#c99;
+	background-image:url(../images/ourKonggu_page1_life_bg.png);
+	padding-top:74px;
+}
+/* 娱乐网 */
+.item-yule .item-title {
+	color:#76849e;
+	bottom: -45px
+}
+.item-yule .item-content {
+	color:#6b6e73;
+	background-image:url(../images/ourKonggu_page1_yule_bg.png);
+	padding-top:190px;
+}
+/* 文学网 */
+.item-wenxue .item-title {
+	color:#6b7979;
+	top: -45px
+}
+.item-wenxue .item-content {
+	color:#6b7979;
+	background-image:url(../images/ourKonggu_page1_wenxue_bg.png);
+	padding-top:96px;
+}
+
+/* 第二页 */
+/* 动漫网 */
+.item-animation .item-title {
+	color:#a968a9;
+	top: -45px
+}
+.item-animation .item-content {
+	color:#f2def2;
+	background-image:url(../images/ourKonggu_page2_animation_bg.png);
+	padding-top:80px;
+}
+/* 专题 */
+.item-special .item-title {
+	color:#036;
+	bottom: -45px
+}
+.item-special .item-content {
+	color:#fff;
+	background-image:url(../images/ourKonggu_page2_special_bg.png);
+	padding-top:156px;
+}
+/* K-NET */
+.item-k_net .item-title {
+	color:#648693;
+	top: -45px
+}
+.item-k_net .item-content {
+	color:#648693;
+	background-image:url(../images/ourKonggu_page2_k_net_bg.png);
+	padding-top:82px;
+}
+/* 社区 */
+.item-community .item-title {
+	color:#76849e;
+	bottom: -45px
+}
+.item-community .item-content {
+	color:#e8eaf6;
+	background-image:url(../images/ourKonggu_page2_community_bg.png);
+	padding-top:175px;
+}
+/* 微博 */
+.item-blog .item-title {
+	color:#969b9d;
+	top: -45px
+}
+.item-blog .item-content {
+	color:#4e5051;
+	background-image:url(../images/ourKonggu_page2_blog_bg.png);
+	padding-top:80px;
+}

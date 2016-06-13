@@ -1,0 +1,33 @@
+.main {
+    background-image:url(../images/index_bg.jpg);
+}
+.title {
+	position:absolute;
+	left:50%;
+	width:1920px;
+	height:215px;
+	top:276px;
+	margin-left:-960px;
+    background-image:url(../images/index_title.png);
+}
+/* 上标题，下标题 */
+.konggu,
+.women {
+	position:absolute;
+	left:0;
+	right:0;
+	text-align:center;
+	line-height:1;
+}
+.konggu {
+	top:226px;
+	font-family:"微软雅黑";
+	font-size:30px;
+	color:#fff;
+}
+.women {
+	top:512px;
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#7b7070;
+}
